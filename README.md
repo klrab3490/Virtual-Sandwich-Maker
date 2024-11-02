@@ -119,13 +119,6 @@ In this view, users can see their selected ingredients visually represented in t
 ![Screenshot3](./README%20Files/Screenshot/Screenshot3.png)
 This screenshot shows that the website is mobile resposive as well ad desktop responsive. This showcases that we are frovicient in doing proper stying to make the websote responsive. ad functional at any screen size.
 
-### Project Demo
-
-## Video
-
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
 ## Team Contributions
 
 - Sreerag Sreekanth: Project Initialization and Component Genration
