@@ -104,14 +104,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Screenshots (Add at least 3)
 
+### Opening Page
+
 ![Screenshot1](./README%20Files/Screenshot/Screenshot1.png)
-This is the opening page of the site. Here we are iven with as with just the outline of the burger and option to slect the ingredients and place them at any posission as needed like top, middle and bottom
+This is the opening page of the Sandwich Maker app. Users are presented with a basic outline of a burger, along with the option to select ingredients and position them as desired—whether at the top, middle, or bottom of the sandwich.
+
+### Ingredient Selection
 
 ![Screenshot2](./README%20Files/Screenshot/Screenshot2.png)
-This is how the website would be after selecting the ingrdients. and the Lofic Scale increase and decrease based onthe ingredient selected.
+In this view, users can see their selected ingredients visually represented in the sandwich. The Logic Scale adjusts dynamically based on the chosen ingredients, increasing or decreasing the score according to the selections made.
+
+### Responsive Design
 
 ![Screenshot3](./README%20Files/Screenshot/Screenshot3.png)
-*Add caption explaining what this shows*
+This screenshot shows that the website is mobile resposive as well ad desktop responsive. This showcases that we are frovicient in doing proper stying to make the websote responsive. ad functional at any screen size.
 
 ### Project Demo
 
