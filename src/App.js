@@ -79,15 +79,15 @@ function App() {
   };
 
   return (
-    <div className="h-[100dvh] bg-blue-50 flex flex-col justify-center items-center p-4">
-      <h1 className="text-3xl font-bold text-purple-700 mb-6">Virtual Sandwich Maker</h1>
+    <div className="min-h-screen bg-blue-50 flex flex-col justify-center items-center p-4 sm:p-6 md:p-8">
+      <h1 className="text-2xl sm:text-3xl font-bold text-purple-700 mb-6 text-center">Virtual Sandwich Maker</h1>
       <IngredientSelector addIngredient={addIngredient} />
       <SandwichStack ingredients={ingredients} removeIngredient={removeSpecificIngredient} />
       <LogicScale logicScore={logicScore} comments={comments} />
-      <div className="flex space-x-4 mt-4">
+      <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
         <button
           onClick={resetSandwich}
-          className="bg-gray-600 text-white p-2 rounded-md hover:bg-gray-700"
+          className="bg-gray-600 text-white p-2 rounded-md hover:bg-gray-700 flex-1"
         >
           Reset Sandwich
         </button>
