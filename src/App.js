@@ -30,7 +30,7 @@ function App() {
       ingredients[ingredients.length - 1]
     ];
     setIngredients(updatedIngredients);
-    updateLogicScore(updatedIngredients);
+    updateLogicScore(updatedIngredients.map(ing => ing.name));
   };
 
   // Remove a specific ingredient by index
@@ -79,7 +79,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-50 flex flex-col items-center p-4">
+    <div className="h-[100dvh] bg-blue-50 flex flex-col justify-center items-center p-4">
       <h1 className="text-3xl font-bold text-purple-700 mb-6">Virtual Sandwich Maker</h1>
       <IngredientSelector addIngredient={addIngredient} />
       <SandwichStack ingredients={ingredients} removeIngredient={removeSpecificIngredient} />
